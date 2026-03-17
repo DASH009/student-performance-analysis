@@ -1,20 +1,30 @@
-# student-performance-analysis
-Analyzing student performance data using Python (pandas, matplotlib) to uncover insights and visualize trends.
-
 # Student Performance Analysis
 
-This project analyzes student performance data using Python.
+This project analyzes student performance data using Python to uncover trends and insights.
 
-## Tools Used
+## Tools & Technologies
 - Python
 - Pandas
 - Matplotlib
 
-## Key Insights
-- Compared performance based on gender
-- Calculated average scores
-- Visualized data using graphs
+## Dataset
+- Student performance dataset containing scores in math, reading, and writing
+
+## Key Analysis
+- Average score calculation across subjects
+- Gender-based performance comparison
+- Score distribution visualization
+
+## Visualizations
+- Bar chart (gender comparison)
+- Histogram (score distribution)
+
+## Insights
+- Female students perform better in reading and writing
+- Male students perform slightly better in math
+- Performance varies significantly across subjects
 
 ## How to Run
-1. Install dependencies: pip install pandas matplotlib
-2. Run: python analysis.py
+```bash
+pip install pandas matplotlib
+python analysis.py
